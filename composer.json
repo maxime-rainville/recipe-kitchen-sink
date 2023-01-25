@@ -36,7 +36,8 @@
         "cwp/cwp": "3.x-dev",
         "dnadesign/silverstripe-elemental-userforms": "4.x-dev",
         "symbiote/silverstripe-multivaluefield": "6.x-dev",
-        "silverstripe/silverstripe-fluent": "7.x-dev"
+        "silverstripe/silverstripe-fluent": "7.x-dev",
+	"silverstripe/framework": "dev-pulls/5/limit-0 as 5.x-dev"
     },
     "require-dev": {
         "silverstripe/frameworktest": "^1",
@@ -62,5 +63,11 @@
         }
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "github",
+            "url": "git@github.com:creative-commoners/silverstripe-framework.git"
+        }
+    ]
 }
